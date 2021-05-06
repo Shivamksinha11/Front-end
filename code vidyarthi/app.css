@@ -1,0 +1,129 @@
+body{
+    font-family: "Nunito", sans-serif;
+    /*background: linear-gradient(rgb(192,84,255)0%,rgb(82,116,255)100%);*/
+}
+
+
+/*Navbar*/
+.mainNavbar{
+    background: linear-gradient(rgb(192,84,255)0%,rgb(82,116,255)100%);
+}
+
+.mainHead{
+    padding: 12px 18% 12px 60px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    font-style: italic;
+}
+.mainHead:hover{
+    color: white;
+}
+.nav-item{
+    padding-right: 20px;
+}
+
+.navElements{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.navElements:hover{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    padding: 15px 35px;
+    color: white;
+    font-weight: bold;
+}
+.btn1{
+    background-color: rgb(255,159,103);
+    transition: 0.5s ease-in;
+    margin-left: 20px;
+}
+.btn2{
+    background-color: rgb(98,116,255);
+    border-color: white;
+    transition: 0.5s ease-in;
+}
+.btn1:hover{
+    background-color: rgb(192,84,255);
+    color: white;
+}
+.btn2:hover{
+    background-color: rgb(255,159,103);
+    color: white;
+}
+
+
+
+
+.tag{
+    padding-left: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 4px 20px;
+    justify-content: left;
+    margin-bottom: 30px;
+}
+.color-one{
+    background-color: #ffeaee;
+    color: #ff8aa0;
+}
+.color-two{
+    background: #fef9da;
+    color: #ead24c;
+}
+.color-three{
+    background: #e7fff5;
+    color: #70e9ae; 
+}
+.color-four{
+    background: #edf9ff;
+    color: #7fd8ff;
+}
+.mainBox{
+    padding-top: 10%;
+
+}
+.text-center {
+    text-align: left!important;
+}
+.main{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+.subMain a{
+    color: #3e3e3e;
+    text-decoration: none;
+    outline: none;
+    font-size: 48px;
+    line-height: 54px;
+    color: #233D63;
+    font-weight: normal;
+    font-weight: 600;
+}
+.content{
+    margin-top: 100px;
+}
+img{
+    border-radius: 5px;
+}
+.arrow{
+    margin-top: 25px;
+    font-size: 50px;
+    text-decoration: none;
+    color: #d3d3d3;
+    transition: 0.5s ease-out;
+}
+.arrow:hover{
+    color: red;
+}
+
+
+

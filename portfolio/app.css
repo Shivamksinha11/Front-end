@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    height: 100vh;
+    background-image: url("download.png");
+    background-size: cover;
+}
+#header{
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 13%;
+    
+}
+.heading-primary{
+ 
+    color: white;
+    font-size: 40px;
+}
+.subheader2{
+    display: block;
+}
+.name{
+    color: rgb(224,27,108);
+}
+#btn1{
+    padding: 1px 8px 8px 10px;
+    background-color: rgb(37,41,52);
+    border-color: white;
+    transition: 0.5s ease;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+#btn1:hover{
+    background-color: rgb(5,194,201);
+}
+.arrow{
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+
+.navbar-light .navbar-brand {
+    color: rgb(220 30 100 / 90%);
+    padding-left: 30px;
+}
+.navbar-light .navbar-brand:hover {
+    color: rgb(220 30 100 / 90%);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(243 243 243 / 1);
+    transition: 0.5s ease-out;
+    padding-left: 30px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(220 30 100 / 90%);
+}
+.navbar{
+    border-bottom: 2px solid rgba(0, 225, 255, 0.945);
+}
+.main{
+    padding-bottom: 50px;
+}
+.container .submain{
+    margin-top: 100px;
+    margin-left: 43%;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(69,71,74);
+    
+}
+.secondary{
+    margin-top: 70px;
+}
+.imag{
+    margin-left: 5%;
+    padding-bottom: 170px;
+}
+
+.image{
+    width: 450px;
+    height: 350px;
+    display: block;
+    clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+}
+.text{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(98,98,98);
+}
+.subtext{
+    font-size: 20px;
+    font-weight: 400;
+}
+.one{
+    margin-top: 120px;
+}
+.sec{
+    width: 90%;
+    height: 35px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.sec .topic{
+    display: inline-block;
+    color: white;
+    background-color: rgb(5,194,201);
+    height: 100%;
+    width: 20%;
+    text-align: center;
+}
+.html{
+    display: inline-block;
+    background-color: rgb(1,161,167);
+    height: 100%;
+    width: 70%;
+}
+.css{
+    display: inline-block;
+    background-color: rgb(1,161,167);
+    height: 100%;
+    width: 75%;
+}
+.javascript{
+    display: inline-block;
+    background-color: rgb(1,161,167);
+    height: 100%;
+    width: 65%;
+}
+.c{
+    display: inline-block;
+    background-color: rgb(1,161,167);
+    height: 100%;
+    width: 70%;
+}
+.cpp{
+    display: inline-block;
+    background-color: rgb(1,161,167);
+    height: 100%;
+    width: 70%;
+}
+.ui{
+    display: inline-block;
+    background-color: rgb(1,161,167);
+    height: 100%;
+    width: 40%;
+}
+
+
+.contact{
+    color: white;
+    background-color:rgb(37,41,52);
+}
+.subcontact{
+    color: rgb(5,187,194);
+    margin-top: 15px;
+}
+.form{
+
+    display: inline-block;
+    margin-left: 30%;
+}
+input{
+    margin-bottom: 5px;
+    height: 35px;
+    width: 500px;
+    background-color: rgb(30,36,44);
+    border: none;
+}
+#text{
+    height: 150px;
+}
+#text::placeholder {
+    padding-left: 15px;
+}
+#name::placeholder{
+    padding-left: 15px;
+}
+#pass::placeholder{
+    padding-left: 15px;
+}
+.button{
+    margin-left: 345px;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+    background-color: rgb(37,41,52);
+    transition: 0.5s ease-in-out;
+}
+.button:hover{
+    background-color: rgb(5,187,194);
+}
+
+
+
+/*
+@media(min-width: 500px){
+    #header{
+        top: 35%;
+        left: 5%;
+    }
+}
+@media(min-width: 650px){
+    #header{
+        top: 35%;
+        left: 28%;
+    }
+}
+@media(min-width: 1000px){
+    #header{
+        top: 35%;
+        left: 28%;
+    }
+}
+@media(min-width: 1500px){
+    #header{
+        top: 35%;
+        left: 28%;
+    }
+}
+*/

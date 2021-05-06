@@ -1,0 +1,39 @@
+#shi{
+    height: 4.5rem;
+}
+h1{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    margin-top: 8%;
+}
+table{
+    margin: auto;
+}
+button{
+    margin-bottom: 11px;
+    height: 30px;
+    width: 49px;
+    border-radius: 20px;
+    background-color: rgba(72, 72, 187, 0.856);
+}
+input{
+    margin-bottom: 15px;
+    width: 200px;
+    height: 7vh;
+    border-radius: 21px;
+    border: 5px solid #244624;
+    font-size: 34px;
+}
+.calculator{
+    display: inline-block;
+}
+button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+button:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
